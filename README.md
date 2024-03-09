@@ -4,6 +4,27 @@ APIs, Python, Matplotlib,
 Instructions
 This activity is broken down into two deliverables, WeatherPy and VacationPy.
 
+Add a .gitignore File (Normally I wouldn't add this to a repo but felt it was important enough documentation to refer back to in the future)
+For this assignment, you will need to add a .gitignore file to your repo. Doing so will prevent the api_keys.py file that contains your API key from being shared with the public. If you skip this step, anyone using GitHub could copy and use your API key, and you may incur charges as a result.
+
+To get started, type git status in the command line to see a list of all the untracked files that you have created so far.
+
+To add only the WeatherPy.ipynb file to GitHub, for example, type git add WeatherPy.ipynb. Keep in mind that you would have to add each file individually when adding or updating a file. A more efficient solution is to add all of the files that you don't want to track to the .gitignore file.
+
+Before adding your files to GitHub, add api_keys.py to the .gitignore file by following these steps:
+
+Open your python-api-challenge GitHub folder in VS Code.
+
+Open the .gitignore file and type the following code on the first line:
+
+# Adding config.py file.
+api_keys.py
+In the command line, type git status and press Enter. The output should indicate that the .gitignore file has been modified and the api_keys.py file is untracked.
+
+Use git add, git commit, and git push to commit the modifications to the .gitignore, WeatherPy.ipynb and VacationPy.ipynb files to GitHub.
+
+On GitHub, the only new python files you should find are WeatherPy.ipynb and VacationPy.ipynb.
+
 Part 1: WeatherPy
 In this deliverable, you'll create a Python script to visualize the weather of over 500 cities of varying distances from the equator. You'll use the citipy Python libraryLinks to an external site., the OpenWeatherMap APILinks to an external site., and your problem-solving skills to create a representative model of weather across cities.
 
