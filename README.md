@@ -123,6 +123,11 @@ Feel free to adjust your specifications but make sure to set a reasonable limit 
 
   - Once you have computed the linear regression for one relationship, you will follow a similar process for all other charts. Optionally, try to create a function that will create these charts based on different parameters. (Note: there will be no extra points for completing this.)
 
+# **Citations**
+
+Instructor: [Othmane Benyoucef](https://www.linkedin.com/in/othmane-benyoucef-219a8637/)
+
+Assistance From [Amanda Pigman](https://www.linkedin.com/in/amanda-pigman-904558227/)
 
 
 
